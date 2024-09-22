@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Perfect</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto Sans Japanese:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body>
+
+<div class="hero">
+    <div class="container hero__container"> <div class="hero__box">
+            <img class="hero__box-img" src="asset/pi.png" alt="">
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
+        </div>
+        <div class="hero__about">
+            <h1 class="hero__title">PolyDeadlines</h1>
+            <h2 class="hero__subtitle">Pixel Perfect</h2>
+        </div>
+
+    </div>
+</div>
+<div class="container columns">
+    <div class="left-column">
+        <section class="section-video">
+            <div>
+            <video  width = "320" height "540" class="left" loop="loop" muted autoplay class = "video-mask">
+                    <source src="asset/preview.mp4" />
+            </video>
+             </div>
+        </section>
+    </div>
+    <div class="right-column">
+        <section>
+            <h1 class="section-title">Цель приложения</h1>
+            <div class="section-content cards-column">
+                <div class="card-column">
+                    <p class="card-span-title">
+                    Объединение информации с порталов
+                    </p>
+                    <p class="card-span-title">
+                    Ведение учёта выполненных заданий
+                    </p>
+                    <p class="card-span-title">
+                     Улучшение информирования о предстоящих дедлайнах
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="section-title">Наша команда</h1>
+            <div class="section-content cards-column">
+                <div class="card-column">
+                    <p class="card-span-title">Горчатов Родион <a class="hero__link" href="https://github.com/rodion56730"><i class='bx bxl-github'></i></a></p>
+                    
+                    <p class="card-span-title">Горчатов Валентин <a class="hero__link" href="https://github.com/rodion56730"><i class='bx bxl-github'></i></a></p>
+                    
+                    <p class="card-span-title">Томилов Матвей <a class="hero__link" href="https://github.com/rodion56730"><i class='bx bxl-github'></i></a></p>
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="section-title">Скачать PolyDeadlines</h1>
+            <div class="section-content tablets">
+                <span class="tablet">Скоро релиз, следите за обновлениями!</span>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+<style>
+video {
+          border-top-left-radius : 20px;
+          border-bottom-right-radius : 20px;
+          border-top-right-radius : 20px;
+          border-bottom-left-radius : 20px;
+          overflow: hidden;
+      }
+  </style>
+</html>
